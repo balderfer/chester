@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5245BE71DEF7C68001D29CC /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5245BE61DEF7C68001D29CC /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5245BEB1DEF7C68001D29CC /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = B5245BEA1DEF7C68001D29CC /* Stickers.xcstickers */; };
+		B5245BEC1DEF7C68001D29CC /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = B5245BEA1DEF7C68001D29CC /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5245BE81DEF7C68001D29CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5245BDC1DEF7C68001D29CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5245BE51DEF7C68001D29CC;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5245BF21DEF7C68001D29CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5245BE71DEF7C68001D29CC /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5245BE21DEF7C68001D29CC /* chester-chicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chester-chicken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5245BE61DEF7C68001D29CC /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5245BEA1DEF7C68001D29CC /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5245BDB1DEF7C68001D29CC = {
+			isa = PBXGroup;
+			children = (
+				B5245BEA1DEF7C68001D29CC /* Stickers.xcstickers */,
+				B5245BE31DEF7C68001D29CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5245BE31DEF7C68001D29CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5245BE21DEF7C68001D29CC /* chester-chicken.app */,
+				B5245BE61DEF7C68001D29CC /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5245BE11DEF7C68001D29CC /* chester-chicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5245BF31DEF7C68001D29CC /* Build configuration list for PBXNativeTarget "chester-chicken" */;
+			buildPhases = (
+				B5245BE01DEF7C68001D29CC /* Resources */,
+				B5245BF21DEF7C68001D29CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5245BE91DEF7C68001D29CC /* PBXTargetDependency */,
+			);
+			name = "chester-chicken";
+			productName = "chester-chicken";
+			productReference = B5245BE21DEF7C68001D29CC /* chester-chicken.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		B5245BE51DEF7C68001D29CC /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5245BEF1DEF7C68001D29CC /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				B5245BE41DEF7C68001D29CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = B5245BE61DEF7C68001D29CC /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5245BDC1DEF7C68001D29CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Benjamin Alderfer";
+				TargetAttributes = {
+					B5245BE11DEF7C68001D29CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RK86JVTH74;
+						ProvisioningStyle = Automatic;
+					};
+					B5245BE51DEF7C68001D29CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RK86JVTH74;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5245BDF1DEF7C68001D29CC /* Build configuration list for PBXProject "chester-chicken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5245BDB1DEF7C68001D29CC;
+			productRefGroup = B5245BE31DEF7C68001D29CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5245BE11DEF7C68001D29CC /* chester-chicken */,
+				B5245BE51DEF7C68001D29CC /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5245BE01DEF7C68001D29CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245BEC1DEF7C68001D29CC /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245BE41DEF7C68001D29CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245BEB1DEF7C68001D29CC /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5245BE91DEF7C68001D29CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5245BE51DEF7C68001D29CC /* StickerPackExtension */;
+			targetProxy = B5245BE81DEF7C68001D29CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5245BED1DEF7C68001D29CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5245BEE1DEF7C68001D29CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5245BF01DEF7C68001D29CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = RK86JVTH74;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5245BF11DEF7C68001D29CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = RK86JVTH74;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5245BF41DEF7C68001D29CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = RK86JVTH74;
+				INFOPLIST_FILE = "chester-chicken/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5245BF51DEF7C68001D29CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = RK86JVTH74;
+				INFOPLIST_FILE = "chester-chicken/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5245BDF1DEF7C68001D29CC /* Build configuration list for PBXProject "chester-chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245BED1DEF7C68001D29CC /* Debug */,
+				B5245BEE1DEF7C68001D29CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5245BEF1DEF7C68001D29CC /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245BF01DEF7C68001D29CC /* Debug */,
+				B5245BF11DEF7C68001D29CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5245BF31DEF7C68001D29CC /* Build configuration list for PBXNativeTarget "chester-chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245BF41DEF7C68001D29CC /* Debug */,
+				B5245BF51DEF7C68001D29CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5245BDC1DEF7C68001D29CC /* Project object */;
+}
