@@ -101,17 +101,17 @@
 		B5245BDC1DEF7C68001D29CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Benjamin Alderfer";
 				TargetAttributes = {
 					B5245BE11DEF7C68001D29CC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = RK86JVTH74;
+						DevelopmentTeam = Q5753C5982;
 						ProvisioningStyle = Automatic;
 					};
 					B5245BE51DEF7C68001D29CC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = RK86JVTH74;
+						DevelopmentTeam = Q5753C5982;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -180,6 +180,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -227,6 +228,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -254,9 +256,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = RK86JVTH74;
+				DEVELOPMENT_TEAM = Q5753C5982;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken.StickerPackExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benalderfer.chesterchicken.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -266,9 +268,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = RK86JVTH74;
+				DEVELOPMENT_TEAM = Q5753C5982;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken.StickerPackExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benalderfer.chesterchicken.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -278,9 +280,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = RK86JVTH74;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q5753C5982;
 				INFOPLIST_FILE = "chester-chicken/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benalderfer.chesterchicken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,9 +294,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = RK86JVTH74;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q5753C5982;
 				INFOPLIST_FILE = "chester-chicken/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benalderfer.chester-chicken";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benalderfer.chesterchicken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +323,7 @@
 				B5245BF11DEF7C68001D29CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5245BF31DEF7C68001D29CC /* Build configuration list for PBXNativeTarget "chester-chicken" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +332,7 @@
 				B5245BF51DEF7C68001D29CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
